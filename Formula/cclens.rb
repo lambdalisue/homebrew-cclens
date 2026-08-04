@@ -2,27 +2,27 @@
 class Cclens < Formula
   desc "A lens onto your Claude Code usage"
   homepage "https://github.com/lambdalisue/cclens"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/lambdalisue/cclens/releases/download/v0.1.0/cclens-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "452e167469621852bdc0e56c67473118a7b6c296b3a3d1fa8df3cc3bca13b84f"
+      url "https://github.com/lambdalisue/cclens/releases/download/v0.1.1/cclens-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "d7b1b5296384f8242162963dfcaa5e0f52f9f0257d767691f04bada8f94a833e"
     end
     on_intel do
-      url "https://github.com/lambdalisue/cclens/releases/download/v0.1.0/cclens-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "11bf188087683696cd5922938db061c16343af24fc6ae9fd68053ad84d3111d1"
+      url "https://github.com/lambdalisue/cclens/releases/download/v0.1.1/cclens-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "b1f971dd567f7c7852277f0fb05a95803531a860a400d859c19cc6e83b3d0231"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lambdalisue/cclens/releases/download/v0.1.0/cclens-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9241f8ac55119e7fc6676d375eec87aafdb89d20393da84e936387b231b2d06e"
+      url "https://github.com/lambdalisue/cclens/releases/download/v0.1.1/cclens-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "724b14440984dbcb2c644097a7e72bd2ae74a504c07fe5687e525c028dc2464c"
     end
     on_intel do
-      url "https://github.com/lambdalisue/cclens/releases/download/v0.1.0/cclens-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3e6f1cb07c0eba66606347fc4aa69ad57081a58e0cee5f2d59f040591d23ee20"
+      url "https://github.com/lambdalisue/cclens/releases/download/v0.1.1/cclens-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e01b440ec590059bd617be6d2b9750cb48e6b1f15eaa15245895bc5a0ddc340c"
     end
   end
 
